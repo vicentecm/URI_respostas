@@ -8,7 +8,7 @@ while N > 1000000 or N<0:
 notas = [100, 50, 20, 10, 5, 2, 1]
 
 print(N)
-for i in notas: 
+for i in notas:
     valor = N // i
     print(f"{valor} nota(s) de R$ {i},00")
     N = N%i

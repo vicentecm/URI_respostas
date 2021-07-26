@@ -16,6 +16,6 @@ for i in notas:
 
 print("MOEDAS:")
 for i in moedas:
-    valor = int(round(N,2)/i)
+    valor = int(round(N,2)/i) # arredondamento
     print(f"{valor:.0f} moeda(s) de R$ {i:.2f}")
     N-= valor*i
